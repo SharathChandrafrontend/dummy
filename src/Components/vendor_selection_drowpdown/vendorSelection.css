@@ -1,0 +1,49 @@
+
+.ant-select {
+  height: 40px !important;
+  border-color: grey !important;
+}
+
+.ant-select :hover 
+{
+    border-color: #DD2424!important;
+}
+
+
+/* .ant-select.ant-select-focused:where(.css-dev-only-do-not-override-qnu6hi).ant-select-outlined:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer).ant-select-selector{
+  border: none !important;
+  border-color: #DD2424 !important; 
+} */
+
+/* .ant-select-selector{
+  box-shadow: none !important;
+}
+
+.ant-select-focused{
+  bottom: none !important;
+  border-color: #DD2424 !important;
+} */
+
+.ant-select.ant-select-focused .ant-select-selector{
+  border-color: #DD2424 !important;
+  box-shadow: none !important;
+}
+.setup-tags-button{
+  background-color: #DD2424;
+  width: 154px;
+  height: 44px;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px;
+}
+/* .setup-tags-button :hover {
+  background-color: #DD2424;
+  color: #fff;
+} */
+.cancel-btn {
+  width: 116px;
+  height: 44px;
+  border-radius: 30px;
+  background-color: #F5F5F6;
+  margin-right: 10px;
+}

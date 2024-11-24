@@ -1,0 +1,37 @@
+.content-container{
+    max-width: 1440px;
+    margin: auto;
+    padding-left: 96px;
+    padding-right: 96px;
+    margin-bottom: 20px;
+    
+  
+  }
+
+  .view-transaction-btn{
+    background-color: #DD2424 !important;
+    color:#FFFFFF !important;
+    padding: 5px;
+  }
+  .transaction-table{
+    max-width: 1440px !important;
+    margin: auto;
+  }
+
+  .custom-row .ant-table table {
+    border-spacing: 0 20px;
+    border: none !important;
+  }
+
+  .custom-row .ant-table table tbody>tr {
+    /* border-spacing: 0 20px; */
+    border: none !important;
+  }
+
+  /* .custom-row .ant-table-wrapper .ant-table-tbody>tr>td {
+    padding: 10px 16px 20px 10px !important;
+}
+
+.custom-row .ant-table-wrapper .ant-table-tbody .ant-table-row{
+    border: none !important;
+} */

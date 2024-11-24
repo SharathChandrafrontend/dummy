@@ -1,0 +1,94 @@
+
+.progress-tracker-container{
+  max-width: 1440px;
+  margin: auto;
+}
+
+.ant-steps-item-tail{
+ padding: 0px 0px !important;
+}
+
+.ant-steps-item-tail::after {
+    transition: width 0.5s ease;
+    height: 5px !important;
+    /* width: 279px !important; */
+  }
+  
+  /* .ant-steps-item-finish .ant-steps-item-icon {
+    background-color: #52c41a; 
+  } */
+  
+  /* .ant-steps-item-active .ant-steps-item-icon {
+    background-color: 'red';
+  } */
+  
+  .progress-steps .ant-steps-item-icon {
+    transition: background-color 0.5s ease;
+  }
+  
+  /* .progress-steps .ant-steps-item-finish .ant-steps-item-tail::after {
+    background-color: #52c41a; 
+  }
+   */
+  /* .progress-steps .ant-steps-item:nth-child(2)  .ant-steps-item-tail::after {
+    height: 6px;
+   
+  } */
+  /* .progress-steps .ant-steps-item:nth-child(1)  .ant-steps-item-tail::after {
+    height: 6px; 
+   
+  } */
+  /* .ant-steps-item-tail{
+    background-color: red!important;
+  } */
+
+  .ant-steps .ant-steps-item-finish>.ant-steps-item-container>.ant-steps-item-tail::after {
+    background-color: #51515A !important;
+  }
+
+  .ant-steps-item-title{
+    font-size: 14px !important;
+    color: #1D1D20 !important;
+    font-weight: 500 !important;
+    line-height: 20px !important;
+  }
+
+  .content-container{
+    max-width: 1440px;
+    margin: auto;
+    padding-left: 96px;
+    padding-right: 96px;
+    margin-bottom: 20px;
+  
+  }
+
+  .btns-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  .ant-pagination-item-active{
+    background-color: none !important;
+    border: none !important;
+    font-weight: 700 !important;
+  }
+  .ant-pagination-item-active a{
+    color: #1D1D20 !important;
+  }
+
+.setup-tags-button{
+  background-color: #DD2424 !important;
+  color:#FFFFFF !important;
+  border: none !important;
+}
+.cancel-btn:hover{
+  background-color: #F5F5F6 !important;
+  border:  #F5F5F6 !important;
+  color:#1D1D20 !important;
+}
+.table-container{
+  background-color: #fff !important;
+}
+/* .custom-button-class:hover{
+  background-color: #DD2424 !important;
+} */

@@ -1,0 +1,57 @@
+/* .fileSegmentseditcard{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    margin: 10px;
+} */
+
+.delete-icon{
+    cursor: pointer;
+}
+
+.edit-icon{
+    cursor: pointer;
+}
+
+.file-text-overflow{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.review-tag-container{
+    max-width: 330px !important;
+    font-family: "poppins" !important;
+    display: flex;
+    flex-wrap: wrap; 
+    /* justify-content: space-between; */
+    border-radius: 10px !important;
+
+   
+}
+
+
+.edit-delete-container{
+    display: flex !important;
+    justify-content: space-between!important;
+    border-radius: 10px;
+    /* padding: 10px; */
+    /* margin-right: 10px; */
+    width: "100%";
+}
+
+.review-delete-font-size{
+    font-family: "poppins";
+    font-size: "12px";
+    color: "#1D1D20";
+}
+.review-delete-font-size-bold{
+    font-family: "poppins";
+    font-size: "12px ";
+    font-weight: 600 !important;
+    color: "#1D1D20";
+}
+.ant-collapse {
+background-color: white!important;
+}
+.ant-collapse-item{
+    border-bottom: 0px!important;
+}

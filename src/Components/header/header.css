@@ -1,0 +1,33 @@
+
+.header-container{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    background-color: #f5f5f6;
+}
+
+.header-title{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.dish-logo{
+    width: 72px;
+    height: 25.89;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.heading-container{
+    display: flex;
+    align-items: center;
+}
+
+.header-user-icon{
+   width: 24px;
+   height: 24px;
+   margin-right: 10px;
+}
